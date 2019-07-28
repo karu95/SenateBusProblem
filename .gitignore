@@ -1,0 +1,31 @@
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+*.class
+.classpath
+.settings
+.project
+*.iml
+*.iws
+*.ipr
+.idea
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+
+# Ignore everything in this directory
+target
