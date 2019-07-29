@@ -39,7 +39,7 @@ public class Bus implements Runnable {
                     bus.release();
                     multiplex.release();
                 }
-                System.out.println("--- " + BusStop.getRiders() + " boarded to bus " + id + ". ---");
+                System.out.println("--- " + 50 + " boarded to bus " + id + ". ---");
                 BusStop.setRiders(BusStop.getRiders() - 50);
             } else {
                 for (int i = 1; i <= BusStop.getRiders(); i++) {

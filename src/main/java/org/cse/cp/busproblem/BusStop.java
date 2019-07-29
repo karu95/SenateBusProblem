@@ -49,11 +49,10 @@ public class BusStop {
         busThread.start();
     }
 
-    public static long arrival_time(long lambda) {
+    public static long arrival_time(long mean_arrival_time) {
 
         double u = Math.random();
-        double t = (-1/lambda)*Math.log(1-u);
-        return ((long) t);
+        return Math.round ((-mean_arrival_time)*Math.log(1-u));
     }
 
     public static int getRiders() {
